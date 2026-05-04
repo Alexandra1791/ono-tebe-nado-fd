@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="./styles/style.css"/>
   </head>
   <body>
-    <header class="header">
+    <header class="header"> <!--Header-->
       <nav>
          <ul class="header__menu">
             <li class="header__links-list-item header__links-list-item_no-bullit">
@@ -46,48 +46,31 @@
       </div>
     </header>
     <main>
-       <section class="cover">
-        <!--<div class="overlay"></div> -->
-            <h1 class="cover-title">
+       <section class="cover"> <!--Входная секция-->
+        <div class="overlay">
+          <div class="cover-title">
             <span class="aligned-text_left">ОНО</span>
             <span class="aligned-text_center">ТЕБЕ</span>
             <span class="aligned-text_right">НАДО</span>
-            </h1>
+          </div>
             <div class="cover__description">
-             <p class="cover__description-text">Аукцион вещей, в которые никто не верил</p> 
+              <p class="cover__description-text">Аукцион вещей, в которые никто не верил</p> 
               <bottom class="bet-button">сделать ставку</bottom>
-        </div>
+            </div>
+         </div>    
       </section>
-      <section class="lots">
+      <section class="lots">  <!--Секция с карточками-->
         <h2 class="lots__heading">Лоты</h2>
         <ul class="lots__card-list">
-          <li class="card_type_film">
-            
-            <a class="card-link" href="0">Фильм режиссёра, который бросил киношколу</a>
-            <div class="overlay">
-              <article class="card__text">Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?</article>
-            </div>
-          </li>
-          <li class="card_type_book">
-            <a class="card-link" href="0">Книга, где описан один скучный день из жизни рекламного агента</a>
-            <div class="overlay">
-            <article class="card__text">Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?</article>
-            </div>
-          </li>
-          <li class="card_type_picture">
-            <div class="overlay">
-            <article class="card__text">Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. Никаких полей, лесов, котиков... Сколько бы вы на такое поставили, если бы не знали, что это — одна из революционных работ Кандинского?</article>
-            </div>
-            <a class="card-link"  href="0">Картина, которую повторит даже 5-летний сын маминой подруги</a>
-          </li>
-        </ul>
-        <div>
-          <p class="lots__look-more-link">
-            посмотреть больше
-          </p>
-        </div>
+          <li>
+            <a>
+              <article class="card__text">
+                Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?
+              </article>
+            </a>
+          </li>  
       </section>
-      <section class="about">
+      <section class="about">  <!--Об аукционе-->
           <div class="background-logo">
             <img class="about__logo" src="images/logo-white.svg" alt="Логотип">
           </div>
@@ -100,7 +83,7 @@
           </div>
       </section>
     </main>
-    <footer class="footer">
+    <footer class="footer"> <!--Footer-->
       <address>
         <a href="tel:+99995555555">+9 999 555 5555</a><br>
         <a href="mailto:info@sobaka.ge">info@sobaka.ge</a><br>
@@ -120,12 +103,12 @@
           </a>
         </li>
         <li class="footer__social-link">
-          <a class="footer__social-icon" href="0">
+          <a class="footer__social-icon" target="_blank" href="0">
             <img src="./images/vk.svg" alt="Логотип vk">
           </a>
         </li>
         <li class="footer__social-link">
-          <a class="footer__social-icon" href="0">
+          <a class="footer__social-icon" target="_blank" href="0">
             <img src="./images/pinterest.svg" alt="Логотип pinterest">
           </a>
         </li>
