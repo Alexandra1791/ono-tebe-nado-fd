@@ -14,15 +14,18 @@
 }
 
 .header__menu {
-  margin-left: -40px;
+  margin-left: -35px;
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
   flex-direction: row;
 }
 
 .header__links-list-item {
   list-style-type: circle;
   text-underline-offset: 5px;
+  margin-left: -10px;
+  margin-bottom: 6px;
 }
 
 .header__links-list-item_no-bullit {
@@ -36,11 +39,12 @@
 
 .header__logo {
   display: block;
-  width: 129px;
-  height: 104px;
+  width: 135px;
+  height: 105px;
 }
  .header__address {
-  margin-left: 184px;
+  margin-left: 195px;
+  margin-bottom: 3px;
   max-width: 240px;  
 }
 
@@ -106,6 +110,7 @@
 
 .cover__description {
   margin: 656px 50px 50px 50px;
+  
   width: 1000px;
   display: flex;
   flex-direction: row;
@@ -119,15 +124,17 @@
 .cover__description-text {
   word-spacing: 19px;
   margin-right: -20px;
+  padding-top: 5px;
 }
 
 .bet-button {
   all:unset;
-  width: 256px;
-  height: 51px;
+  width: 255px;
+  
   margin: 0;
   background-color: transparent;
   border: 1px solid #FFFFFF;
+  padding-bottom: 5px;
 }
 
 /*________Секция с карточками______*/
@@ -202,7 +209,7 @@
 .lots__look-more-link {
  font-size: 20px;
  padding-left: 40px;
- margin-bottom: 0;
+ padding-top: 5px;
  text-underline-offset: 5px;
  text-decoration-thickness: 1px;
 }
@@ -277,6 +284,7 @@
   list-style-type: none;
   line-height: 1.2;
   text-underline-offset: 5px;
+  padding-left: 5px;
 }
 
 .footer__social-list {
