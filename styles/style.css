@@ -42,7 +42,8 @@
   width: 135px;
   height: 105px;
 }
- .header__address {
+
+.header__address {
   margin-left: 195px;
   margin-bottom: 3px;
   max-width: 240px;  
@@ -54,7 +55,9 @@
   text-underline-offset: 5px;
   line-height: 1.4;
 }
+
 /* _________Входная секция________*/
+
 .cover {
   min-height: 757px;
   background-image: url(../images/cover.jpg);
@@ -66,7 +69,6 @@
   text-transform: uppercase;
   position: relative;
 }
-
 
 .overlay {
   background-color: #00000080;
