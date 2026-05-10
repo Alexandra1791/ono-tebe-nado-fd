@@ -288,7 +288,7 @@
   padding-right: 50px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  align-items:flex-start; 
+  align-items: flex-start; 
   font-size: 18px;
 }
 
